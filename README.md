@@ -1,3 +1,3 @@
 # Página de tributo: Ada Lovelace
 
-<h4> A inspiração é na Ada Lovelace! Considerada a primeira programadora da história, aqui você encontrará detalhes sobre sua importancia na tecnologia e sobre quem foi ela. </h4>
+<h4> Ada Lovelace é considerada a primeira programadora da história. Aqui você encontrará detalhes sobre sua importancia na tecnologia e sobre quem foi ela. </h4>
