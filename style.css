@@ -1,11 +1,31 @@
-.bb {
-    background-color: rgba(248, 206, 90, 0.692);
+.curious {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.bla {
-    position: relative;
+a {
+    transition: .2s all;
+    text-decoration: none;
 }
 
-body > p {
-    font-size: 30px;
+.blog-tag {
+    background-color: rgb(232,56,144);
+    font-weight: 900;
+    
+    line-height: 1.5;
+    display: inline-block;
+    
+    padding: 3px 5px 1px 7px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 2px;
+
+    font-size: 9px;
+    margin: 6px 2px 0 0;
+
+    color: rgb(255,255,255);
+}
+
+.title-main {
+    text-align: center;
 }
