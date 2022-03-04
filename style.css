@@ -82,6 +82,7 @@ h3 {
 }
 
 .textos {
+    padding: 50px 90px;
     font-family: monospace;
     font-size: 17px;
     font-weight: lighter;
