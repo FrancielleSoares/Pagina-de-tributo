@@ -1,14 +1,14 @@
+
+/* Botão rosa sobre "Curiosidades sobre" */
 .curious {
     display: flex;
     justify-content: flex-end;
 }
 
-a {
+.blog-tag {
     transition: .2s all;
     text-decoration: none;
-}
 
-.blog-tag {
     background-color: rgb(232,56,144);
     font-weight: 900;
     
@@ -25,7 +25,15 @@ a {
 
     color: rgb(255,255,255);
 }
+/*---------------------*/
 
+
+/* Cabeçalho - titulo e imagem de fundo */
 .title-main {
     text-align: center;
 }
+
+.image-background {
+    background-image: url(images/image8.jpg);
+}
+/*---------------------*/
