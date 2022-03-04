@@ -9,7 +9,7 @@
     transition: .2s all;
     text-decoration: none;
 
-    background-color: rgb(232,56,144);
+    background-color: rgb(232, 170, 56);
     font-weight: 900;
     
     line-height: 1.5;
@@ -20,7 +20,7 @@
     border: none;
     border-radius: 2px;
 
-    font-size: 9px;
+    font-size: 11px;
     margin: 6px 2px 0 0;
 
     color: rgb(255,255,255);
@@ -35,5 +35,33 @@
 
 .image-background {
     background-image: url(images/image8.jpg);
+    border-radius: 13px;
+    height: 520px;
+    opacity: 0.9;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
 }
 /*---------------------*/
+
+.textos {
+    border: 2px solid red;
+    padding: 10px;
+    border-bottom-left-radius: 25px;
+}
+
+
+/**/
+footer {
+	text-align: center;
+	background: url("images/image1.png");
+	padding: 40px 0;
+    background-repeat: no-repeat;
+}
+
+.copyright{
+	color: #cc1010;
+	font-size: 15px;
+	margin: 20px 0 0;
+}
