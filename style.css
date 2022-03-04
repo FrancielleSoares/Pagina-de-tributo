@@ -15,7 +15,7 @@
     transition: .2s all;
     text-decoration: none;
 
-    background-color: rgb(232, 170, 56);
+    background-color: rgb(148, 103, 19);
     font-weight: 900;
     
     line-height: 1.5;
@@ -86,6 +86,7 @@ h3 {
     font-size: 17px;
     font-weight: lighter;
     color: white;
+    display: block;
 
 }
 
