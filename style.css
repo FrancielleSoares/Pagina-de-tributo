@@ -35,13 +35,14 @@
 
 .image-background {
     background-image: url(images/image8.jpg);
-    border-radius: 13px;
+    border-bottom-right-radius: 363px;
+    border-top-left-radius: 250px;
     height: 520px;
     opacity: 0.9;
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: auto;
 }
 /*---------------------*/
 
@@ -54,13 +55,19 @@
 
 /**/
 footer {
-	text-align: center;
-	background: url("images/image1.png");
-	padding: 40px 0;
+    padding: 100px 0;
+}
+
+.foo {
+	background: url(images/image1.jpg);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: #cccccc;
 }
 
 .copyright{
+    text-align: center;
 	color: #cc1010;
 	font-size: 15px;
 	margin: 20px 0 0;
