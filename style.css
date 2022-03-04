@@ -1,3 +1,9 @@
+/* background color page all */
+.color-background {
+    background-color: rgb(27, 24, 24);
+}
+/*----------------------*/
+
 
 /* Botão rosa sobre "Curiosidades sobre" */
 .curious {
@@ -29,9 +35,18 @@
 
 
 /* Cabeçalho - titulo e imagem de fundo */
+
 .title-main {
     text-align: center;
 }
+
+h1 {
+    font-family: Courier, monospace;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+    
 
 .image-background {
     background-image: url(images/image8.jpg);
@@ -39,36 +54,49 @@
     border-top-left-radius: 250px;
     height: 520px;
     opacity: 0.9;
-    background-color: #cccccc;
+    background-color: #0000008f;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
+
+    display: flex;
+    align-items: center;
 }
 /*---------------------*/
+
+
+/* Textos de paragrafos - fontes e cores */
+
+h2 {
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(37, 216, 37);
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 20px;
+    color: #cc1010;
+
+}
+
 .textos {
     font-family: monospace;
     font-size: 17px;
+    font-weight: lighter;
+    color: white;
+
 }
 
-p {
+p:not(.copyright) {
     border-bottom: 2px solid red;
     padding: 10px;
     border-bottom-left-radius: 25px;
 }
-
+/*----------------------*/
 
 /**/
-footer {
-    padding: 100px 0;
-}
-
-.foo {
-	background: url(images/image1.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
-    background-color: #cccccc;
-}
 
 .copyright{
     text-align: center;
